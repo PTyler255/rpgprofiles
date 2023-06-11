@@ -1,6 +1,6 @@
 # Character Profile Manager
 
-A full stack website that manages Player Character profiles for Table Top RPGs. Includes user authentication and session stores. Can create new accounts and add, edit or delete player characters within the database. Frontend is Javascript, backend is Python with some SQLite for database management.
+A full stack website that manages Player Character profiles for Table Top RPGs. Includes user authentication and session stores. Can create new accounts and add, edit or delete player characters within the database. Frontend is Javascript, backend is Python with some postgresql for database management.
 
 ## Data Objects
 
