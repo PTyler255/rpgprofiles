@@ -1,0 +1,96 @@
+
+
+<head>
+	<meta name="robots" content="noindex">
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device width, initial-scale=1.0">
+	<title>whoot</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<script src="script.js" defer></script>
+</head>
+<body>
+	<header>
+		<h1>Character List</h1>
+	</header>
+	<main>
+		<div id="signreg">
+			<ul>
+				<li id="reg">Register</li>
+				<li id="sign">Sign-In</li>
+			</ul>
+			<div id="regform">
+				<span>
+					<label for="fname">First Name</label>
+					<input type="text" name="fname" id="fname" required>
+				</span>
+				<span>
+					<label for="lname">Last Name</label>
+					<input type="text" name="lname" id="lname" required>
+				</span>
+				<span>
+					<label for="email">E-Mail</label>
+					<input type="email" name="email" id="rem" required>
+				</span>
+				<span>
+					<label for="password">Password</label>
+					<input type="password" name="password" id="rpassword" required>
+				</span>
+				<span>
+					<label for="cpass">Confirm Password</label>
+					<input type="password" name="cpass" id="cpass" required>
+				</span>
+				<button type="submit" id="regbutt">Submit</button>
+			</div>
+			<div id="signform">
+				<span>
+					<label for="email">E-Mail</label>
+					<input type="email" name="email" id="sem" required>
+				</span>
+				<span>
+					<label for="spass">Password</label>
+					<input type="password" id="spass" name="spass" required>
+				</span>
+				<button id="signbutt">Submit</button>
+			</div>
+			<p></p>
+		</div>
+		<h2 id="formtit">New Character</h2>
+		<div id="form">
+			<input type="text" id="ide" name="ide" style="display:none">
+			<span>
+				<label for="name">Name</label>
+				<input type="text" id="name"  name="name">
+			</span>
+			<span>
+				<label for="class">Class</label>
+				<input type="text" name="class" id="class">
+			</span>
+			<span>
+				<label for="level">Level</label>
+				<input type="number" id="level" name="level" min="1" max="20">
+			</span>
+			<div id="ntes">
+				<label for="notes">Notes</label>
+			</div>
+			<span>
+				<label for="money">Money</label>
+				<input type="number" min="0" step="0.01" id="money" name="money">
+			</span>
+			<span>
+				<label for="resource">Resource</label>
+				<input type="number" min="1" id="resource" name="resource">
+			</span>
+			<textarea name="notes" id="notes"></textarea>	
+			<div id="submit">
+			<button id="foo" type="button">Submit</button>
+			<button id="bar" type="button">Update</button>
+			</div>
+		</div>
+		<h2>All characters</h2>
+		<div id="content">
+			
+
+		</div>
+	</main>
+</body>
+</html>
